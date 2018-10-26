@@ -1,0 +1,30 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "这是一个使用Node.js技术写成的简单的聊天服务器客户端，均适用命令行。用于练习上手Node.js。我的第一个node.js项目",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asahi1201/NodeChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asahi1201/NodeChat/issues"
+  },
+  "homepage": "https://github.com/asahi1201/NodeChat#readme",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "@sensoro/eslint-config-sensoro-base-lite": "0.0.3"
+  }
+}

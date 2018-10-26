@@ -1,0 +1,4 @@
+{
+  "extends": "@sensoro/eslint-config-sensoro-base-lite"
+}
+
